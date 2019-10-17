@@ -1,0 +1,4 @@
+/dev/mmcblk0p3 / ext4 noatime,defaults 0 1
+/dev/mmcblk0p1 /boot ext2 noatime,defaults 0 2
+tmpfs /var/log tmpfs defaults 0 0
+UUID=ECD6-9AFB /media/storage auto rw,users,sync,exec,dev,suid,uid=500,gid=500,umask=000 0 2
